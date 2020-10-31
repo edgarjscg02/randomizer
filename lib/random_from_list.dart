@@ -68,7 +68,7 @@ class _RandomFromListState extends State<RandomFromList> {
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
               RaisedButton(
-                color: Colors.blue[300],
+                color: Colors.blue[200],
                 onPressed: (){
                   var content;
                   if(listItems.length>1){
@@ -88,7 +88,7 @@ class _RandomFromListState extends State<RandomFromList> {
                             textAlign: TextAlign.center,
                             style: TextStyle(
                                 fontFamily: 'Quicksand',
-                                fontSize: 40.0,
+                                fontSize: 35.0,
                                 fontWeight: FontWeight.bold
                             ),
                           )
@@ -103,7 +103,7 @@ class _RandomFromListState extends State<RandomFromList> {
                 ),
               ),
               RaisedButton(
-                color: Colors.yellow[300],
+                color: Colors.yellow[200],
                 onPressed: (){
                   listItems.clear();
                   setState(() {

@@ -45,7 +45,6 @@ class Home extends StatelessWidget {
 
         body: TabBarView(
           children: [
-            //RollDices(),
             RandomNumber(),
             RandomFromList(),
           ],
