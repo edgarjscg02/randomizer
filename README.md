@@ -1,4 +1,4 @@
-# randomizer
+# Randomizer
 
 Randomize with different options.
 
